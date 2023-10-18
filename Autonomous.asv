@@ -1,8 +1,8 @@
 %{ 
-WALL FOLLOWING ALGORITHM PSUEDOCODE
-very basic but the logtic should be sound
 
-tdistance = UltrasonicDist
+Psuedocode for wall-following algorithm
+
+distance = UltrasonicDist
 threshold = 2cm
 
 while true:
@@ -10,10 +10,9 @@ while true:
         drive forward
     else if distance > threshold:
         turn right
-        drive forward until distance <= threshold
-    else:
-        turn left
-        drive forward until distance <= threshold
+        drive forward ultin distance <
+
+
 %}
 
 
