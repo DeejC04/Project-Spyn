@@ -10,7 +10,7 @@ while true:
         drive forward
     else if distance > threshold:
         turn right
-        drive forward until distance <= threshold
+        drive forward until distance <= threshold   
     else:
         turn left
         drive forward until distance <= threshold
