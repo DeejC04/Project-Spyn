@@ -14,8 +14,6 @@ while 1
             brick.MoveMotor('A', 50)
         case 'q'
             break
-        otherwise
-            brick.MoveMotor('AD', 0)
     end
 end
 
