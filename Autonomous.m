@@ -27,7 +27,6 @@ brick.GyroCalibrate(1)
 angle = brick.GyroAngle(3)
 
 while 1
-    while 1
     distance = brick.UltrasonicDist(SensorPort)
     pause(0.1);
     switch key
